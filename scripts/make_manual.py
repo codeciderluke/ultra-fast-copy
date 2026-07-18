@@ -156,7 +156,7 @@ to beat Robocopy on NTFS (directory-lock scatter, block-level imaging) ships in
 PySide6 (LGPL-3.0); the CLI executable contains only permissive-licensed
 components. See <code>LICENSE</code> and <code>THIRD_PARTY_LICENSES.md</code>.</p>
 
-<p class="muted">Designed by Codecider Lab &middot; Ultra Fast Copy 0.1.0</p>
+<p class="muted">Designed by Codecider Lab &middot; Ultra Fast Copy 1.0.0</p>
 
 </body></html>
 """

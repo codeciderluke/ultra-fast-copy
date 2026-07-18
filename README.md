@@ -54,8 +54,7 @@ Feature-for-feature, it does things the common tools do not:
 On raw small-file throughput, Robocopy's native engine is still the one to beat.
 This project ships the two techniques that actually *do* beat it on NTFS —
 directory-lock scatter (~1.4x) and block-level imaging (~9.6x on a whole
-volume) — with full measurements and honest limits in
-[`docs/benchmark.md`](docs/benchmark.md).
+volume) — with measurements in [`docs/benchmark.md`](docs/benchmark.md).
 
 ## Installation
 
@@ -247,7 +246,7 @@ retry, resume, and detailed logs.
 Compare it in your own environment with `ufCopy benchmark`.
 
 How to beat Robocopy on NTFS (~25% by avoiding directory-lock contention, an
-order of magnitude by block-level imaging), with measurements and limits, is
+order of magnitude by block-level imaging), with measurements, is
 written up in [`docs/benchmark.md`](docs/benchmark.md). The reproducible native
 experiments live in `experiments/` (build with
 `scripts/build_experiments.ps1`); the comparison harness is
